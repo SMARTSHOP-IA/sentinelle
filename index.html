@@ -397,7 +397,7 @@ if (!window.SENTINELLE_EQUIPE) afficher(DONNEES_PAGE);
     };
   }
   function refuse(u) {
-    montrer('<h1>Accès non autorisé</h1><p>Le compte <b>' + esc(u.email) + '</b> n\'a pas accès à cet outil. Il doit être ajouté à la liste des personnes autorisées (collection « authorizedUsers » dans Firebase) par la personne qui gère l\'outil.</p><button class="gbtn" id="gOut">Changer de compte</button>');
+    montrer('<h1>Accès non autorisé</h1><p>Le compte <b>' + esc(u.email) + '</b> n\'a pas accès à cet outil : il est réservé aux comptes Google <b>@smartshop.fr</b>.</p><button class="gbtn" id="gOut">Changer de compte</button>');
     document.getElementById("gOut").onclick = () => auth.signOut();
   }
   function demarrer(u) {
