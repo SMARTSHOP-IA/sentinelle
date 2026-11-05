@@ -1,6 +1,6 @@
 # Sentinelle — dashboard de l'équipe Smartshop
 
-Adresse : **https://smartshop-ia.github.io/sentinelle/**
+Adresse : **https://sentinelle.smartshop.fr/**
 
 Page publique **sans aucune donnée** : après la connexion Google, elle lit l'état de la Sentinelle dans
 Firebase (projet `smartshop-catalogues`, document `sentinelle/etat`), réservé aux comptes Google
